@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header .tags{
+    display: none;
+}
+header {
+    width: calc(100% - 2rem);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .hamburger{
+    display: block;
+    background: url("../images/hamburger.svg");
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin-left: -1rem;
+    
+}
+
+header .title{
+    margin-right: 8.5rem;
+}
+
+main .top{
+    width: calc(100% - 9.5rem);
+    margin: auto;
+
+}
+main .top img{
+    display: none;
+}
+main .top p,h1,a{
+    padding: 0;
+    margin: 0;
+}
+
+main .top p{
+    width: 100%;
+    margin: auto;
+    background: red;
+}
